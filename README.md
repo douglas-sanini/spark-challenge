@@ -24,7 +24,7 @@ Inside Jupyter Notebook, create a new notebook and start a Spark session that al
 
 ### Step 4: Connect to MySQL
 Use PySpark to establish a connection to the MySQL database using the following details:
-- **Database URL**: `jdbc:mysql://localhost:3306/test_db?useSSL=false`
+- **Database URL**: `jdbc:mysql://localhost:3306/test_db?useSSL=false&allowPublicKeyRetrieval=true`
 - **User**: `jovyan`
 - **Password**: `password`
 - **Driver**: `com.mysql.jdbc.Driver`
