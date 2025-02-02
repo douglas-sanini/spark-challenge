@@ -35,25 +35,6 @@ Use PySpark to establish a connection to the MySQL database using the following 
 
 ### Step 6: Commit Your Work to GitHub
 1. Install Git if it's not already installed.
-   ```sh
-   sudo apt-get update && sudo apt-get install -y git
-   ```
-2. Clone the challenge repository:
-   ```sh
-   git clone https://github.com/paulorangeljr/spark-challenge.git
-   ```
-3. Create a new branch using your name:
-   ```sh
-   cd spark-challenge
-   git checkout -b your-name
-   ```
-4. Add your notebook to the repository:
-   ```sh
-   git add your-notebook.ipynb
-   git commit -m "Added my solution"
-   git push origin your-name
-   ```
-5. Open a pull request on GitHub to submit your solution.
 
-Good luck! 🚀
+2. Fork this repo and add your notebook
 
