@@ -32,9 +32,12 @@ Use PySpark to establish a connection to the MySQL database using the following 
 ### Step 5: Perform Data Operations
 1. List all available tables in the `test_db` database.
 2. Create a DataFrame that calculates the total spending per user.
+3. You should write the DataFrame to the MysqlDB creating a new table called Results. Please output the results on the notebook
+4. You should write the DataFrame to the local disk creating a Delta Table. (HINT: Delta is not present on the docker image, you should install it first)
+
 
 ### Step 6: Commit Your Work to GitHub
 1. Install Git if it's not already installed.
 
-2. Fork this repo and add your notebook
+2. Fork this repo and add your notebook and the folder files from delta writing.
 
