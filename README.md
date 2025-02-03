@@ -3,7 +3,7 @@
 ## Overview
 This challenge requires you to run a Docker container with Jupyter, Spark, and MySQL, then interact with the MySQL database using PySpark.
 
-This docker imagem already contains Jupyter, Spark, Mysql and Mysql drivers.
+This docker imagem already contains Jupyter, Spark, Mysql and Mysql drivers. Be aware of the environment, an eventual troubleshooting it is part of the challange. 
 
 ## Steps to Complete the Challenge
 
