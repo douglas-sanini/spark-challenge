@@ -3,7 +3,7 @@
 ## Overview
 This challenge requires you to run a Docker container with Jupyter, Spark, and MySQL, then interact with the MySQL database using PySpark.
 
-This docker imagem already contains Jupyter, Spark, Mysql and Mysql drivers necessary to execute the challenge. Only Delta Tables are not present.
+This docker imagem already contains Jupyter, Spark, Mysql and Mysql drivers.
 
 ## Steps to Complete the Challenge
 
@@ -35,7 +35,7 @@ Use PySpark to establish a connection to the MySQL database using the following 
 1. List all available tables in the `test_db` database.
 2. Create a DataFrame that calculates the total spending per user.
 3. You should write the DataFrame to the MysqlDB creating a new table called Results. Please output the results on the notebook
-4. You should write the DataFrame to the local disk creating a Delta Table. (HINT: Delta is not present on the docker image, you should install it first)
+4. You should write the DataFrame to the local disk creating a Delta Table.
 
 
 ### Step 6: Commit Your Work to GitHub
